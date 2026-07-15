@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TwoSum/TwoSum.vcxproj" Id="6e9957a4-7157-4231-b08f-ff8be657f92e" />
+</Solution>
