@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ContainsDuplicate/ContainsDuplicate.vcxproj" />
+  <Project Path="ContainsDuplicate/ContainsDuplicate.vcxproj" Id="3dbe61db-bab0-404e-8fb5-d05623a7161e" />
 </Solution>
