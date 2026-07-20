@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="MergeStringsAlternately/MergeStringsAlternately.vcxproj" />
+  <Project Path="MergeStringsAlternately/MergeStringsAlternately.vcxproj" Id="ec8e1978-512b-4fbc-ad8d-94c41917c958" />
 </Solution>
