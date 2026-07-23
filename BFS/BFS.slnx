@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="BFS/BFS.vcxproj" Id="21991f31-0a04-4ebe-9bf6-dcfc04ab74a3" />
+</Solution>

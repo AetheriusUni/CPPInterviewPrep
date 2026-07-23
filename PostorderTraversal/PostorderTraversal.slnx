@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PostorderTraversal/PostorderTraversal.vcxproj" Id="fc50b957-550d-4f04-bfc7-14d5feb0375c" />
+</Solution>

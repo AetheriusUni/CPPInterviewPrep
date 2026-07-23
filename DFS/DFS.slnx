@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DFS/DFS.vcxproj" Id="ba403c35-300c-483f-9d34-0c2448e29f06" />
+</Solution>
