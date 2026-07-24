@@ -66,7 +66,7 @@ int height(TreeNode* root)
     if (!root)
         return 0;
 
-    return 1 + max(height(root->left),
+    return 1 + std::max(height(root->left),
         height(root->right));
 }
 
@@ -126,24 +126,36 @@ std::vector<int> postorderIterative(TreeNode* root)
     TreeNode* current = root;
     TreeNode* lastVisited = nullptr;
 
+    // if the node is not null or stack is not empty
     while (current || !st.empty())
     {
+        // so long as the current node is not null
         while (current)
         {
+            // push that node to the stack
             st.push(current);
+            // move to the left node
             current = current->left;
         }
 
+        // the current node is now null, there was no left node
+        // peek at the node at the top of the stack
         TreeNode* peek = st.top();
 
+        // if there's a node to the right of the node at the top of the stack and we didn't already process that node's subtree
         if (peek->right && lastVisited != peek->right)
         {
+            // make that node our current node so we can process it
             current = peek->right;
         }
+        // if there's no node to the right or if the node to the right has already been processed
         else
         {
+            // push the node at the top of the stack to the result vector
             result.push_back(peek->val);
+            // set the last visited node to be the one we just pushed
             lastVisited = peek;
+            // pop the top node since it's been processed here
             st.pop();
         }
     }

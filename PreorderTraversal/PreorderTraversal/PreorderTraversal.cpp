@@ -40,7 +40,7 @@ void preorderRecursive(TreeNode* root)
 	if (root == nullptr)
 		return;
 
-	std::cout << root->val << " ";          // Visit root
+	std::cout << root->val << " ";     // Visit root
 	preorderRecursive(root->left);     // Traverse left
 	preorderRecursive(root->right);    // Traverse right
 }
@@ -86,6 +86,36 @@ void preorderIterative(TreeNode* root)
 		if (node->left)
 			st.push(node->left);
 	}
+}
+
+// TO RETURN THE PATH OF TRAVERSAL
+std::vector<int> preorderIterativeReturn(TreeNode* root)
+{
+	std::vector<int> preorder;
+	if (!root)
+		return preorder;
+
+
+	std::stack<TreeNode*> st;
+	// push current node into stack
+	st.push(root);
+
+	while (!st.empty())
+	{
+		TreeNode* node = st.top();
+		st.pop();
+
+		preorder.push_back(node->val);
+
+		// Push right FIRST
+		if (node->right)
+			st.push(node->right);
+
+		// Push left SECOND
+		if (node->left)
+			st.push(node->left);
+	}
+	return preorder;
 }
 
 //==============================================================

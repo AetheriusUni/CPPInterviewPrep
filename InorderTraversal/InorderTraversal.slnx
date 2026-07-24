@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="InorderTraversal/InorderTraversal.vcxproj" />
+  <Project Path="InorderTraversal/InorderTraversal.vcxproj" Id="74fe46cc-54a4-45bb-84fe-06f05b7ec0f7" />
 </Solution>

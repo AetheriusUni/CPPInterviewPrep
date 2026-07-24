@@ -53,23 +53,29 @@ Interview favorite because recursion isn't allowed.
 */
 void inorderIterative(TreeNode* root)
 {
+    // stack of TreeNode
     std::stack<TreeNode*> st;
     TreeNode* curr = root;
 
     while (curr || !st.empty())
     {
-        // Go to leftmost node
+        // Go to leftmost node so long as the current node isn't null
         while (curr)
         {
+            // add this node to the stack
             st.push(curr);
+            // move to this node's left node
             curr = curr->left;
         }
 
+        // at this point the current node is null, the prior node had no left children
+        // store the value at the top of the stack
         curr = st.top();
+        // then pop it
         st.pop();
-
+        // and print that value
         std::cout << curr->val << " ";
-
+        // then check the right subtree
         curr = curr->right;
     }
 }
