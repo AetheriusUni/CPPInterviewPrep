@@ -177,26 +177,35 @@ std::vector<int> postorderTwoStacks(TreeNode* root)
 
     if (!root)
         return result;
-
+    // s1 stores visited nodes
     std::stack<TreeNode*> s1;
+    // s2 stores popped nodes from s1
     std::stack<TreeNode*> s2;
 
     s1.push(root);
 
+    // when s1 becomes empty the entire tree has been traversed
     while (!s1.empty())
     {
+        // set current node to the value at the top of s1
         TreeNode* node = s1.top();
+        // pop the value at the top of s1
         s1.pop();
 
+        // push the popped value into s2
         s2.push(node);
 
+        // if a left node exists, push it into s1
         if (node->left)
             s1.push(node->left);
 
+        // if a right node exists, push it into s1
         if (node->right)
             s1.push(node->right);
     }
 
+    // now that the entire tree has been traversed and s1 is empty
+    // push all the contents of s2 into result, this is the postorder traversal
     while (!s2.empty())
     {
         result.push_back(s2.top()->val);
