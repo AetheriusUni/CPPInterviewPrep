@@ -13,13 +13,9 @@ void printNToOne (int i, int n)
 		return;
 	}
 	// putting the print statement after the recursive call means to start printing only after one instance of recursion hits the return in the base case
+	// flipping the two lines would print from i to n instead
 	printNToOne(i + 1, n);
 	std::cout << i << " ";
-	/*
-	// this would cause the print to be from i to n instead
-	std::cout << i << " ";
-	printNToOne(i + 1, n); // should be renamed to printOneToN
-	*/
 }
 
 int main()
