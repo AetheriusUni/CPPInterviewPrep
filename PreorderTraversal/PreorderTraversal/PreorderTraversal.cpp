@@ -58,10 +58,12 @@ void preorderRecursive(TreeNode* root)
 // Because std::stack is LIFO.
 //
 // Time:
-// O(n)
+// O(n) -- go through each element once
 //
 // Space:
-// O(h)
+// O(h) -- height of tree
+// 
+// Root -> Left -> Right
 //==============================================================
 void preorderIterative(TreeNode* root)
 {
@@ -111,7 +113,7 @@ std::vector<int> preorderIterativeReturn(TreeNode* root)
 		if (node->right)
 			st.push(node->right);
 
-		// Push left SECOND
+		// Push left SECOND, important since next iteration we want the left node to be processed first
 		if (node->left)
 			st.push(node->left);
 	}

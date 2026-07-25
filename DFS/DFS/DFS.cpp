@@ -46,6 +46,7 @@ struct TreeNode
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
+// preorder is the most common DFS since it's the most intuitive
 void preorder(TreeNode* node)
 {
     if (!node)
@@ -88,6 +89,7 @@ void dfsGraph(int node,
 void dfsIterative(int start,
     const std::vector<std::vector<int>>& graph)
 {
+    // initialize visited bool vector with size of the graph and initial values set to false
     std::vector<bool> visited(graph.size(), false);
 
     std::stack<int> st;
