@@ -5,8 +5,11 @@ use parameterised recursion to output the sum of all numbers from 1 to i
 #include <iostream>
 
 // initially we start with sumFunction( 3, 0 )
+// if we wanted this function to return an int, change the base case to return sum instead of print
+// similar to factorial solution
 void sumFunction(int i, int sum)
 {
+    // base case
     if (i < 1)
     {
         std::cout << sum << std::endl;

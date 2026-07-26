@@ -22,6 +22,7 @@ int sumFunction(int n)
 
 int factorial(int n)
 {
+    // this could be n == 1 to return one iteration earlier since both factorial of 1 and 0 are 1
     if (n == 0)
     {
         return 1;
