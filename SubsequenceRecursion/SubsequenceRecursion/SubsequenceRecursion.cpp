@@ -51,10 +51,11 @@ int main()
 	return 0;
 }
 
-// Time Complexity: 2^n * n
+// Time Complexity: O(2^n * n)
 // 2^n because for each index one can take or not take, 2 options
 // n because we can print at most n characters per sequence
-// Space Complexity: 
+// Space Complexity: O(n)
+// at most the number of recusive calls being held in stack memory is n
 
 /*
 #include <array>
