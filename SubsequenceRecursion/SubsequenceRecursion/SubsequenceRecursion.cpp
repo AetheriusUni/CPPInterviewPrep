@@ -35,6 +35,8 @@ void printSubsequences(int index, std::vector<int> &subsequence, int arr[], int 
 
 	// don't pick/take/add the value of arr at the current index to the subsequence
 	subsequence.pop_back();
+
+	// pick the value at the next index
 	printSubsequences(index + 1, subsequence, arr, sizeOfArray);
 }
 
@@ -48,3 +50,23 @@ int main()
 
 	return 0;
 }
+
+// Time Complexity: 2^n * n
+// 2^n because for each index one can take or not take, 2 options
+// n because we can print at most n characters per sequence
+// Space Complexity: 
+
+/*
+#include <array>
+
+// Must use & here to avoid copying the fixed-size array
+void printModernArray(const std::array<int, 5>& arr) 
+{
+	std::cout << arr.size(); // It remembers its size!
+}
+
+^ instead of using int arr[] like in the not commented code above can use std::array<int, 3> arr = { 3, 1, 2 };
+then pass in to printSubsequences std::array<int, 3>& arr
+we can use the .size() with the std::array
+*/
+
