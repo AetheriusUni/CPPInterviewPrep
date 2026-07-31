@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="SubsequenceRecursionPrintOne/SubsequenceRecursionPrintOne.vcxproj" />
+  <Project Path="SubsequenceRecursionPrintOne/SubsequenceRecursionPrintOne.vcxproj" Id="c2bf6ecb-5e8e-4700-9e2b-bf2d999e33fe" />
 </Solution>

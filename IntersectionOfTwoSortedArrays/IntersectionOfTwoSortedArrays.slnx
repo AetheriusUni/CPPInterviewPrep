@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="LeftRotateArrayOnce/LeftRotateArrayOnce.vcxproj" Id="992f36fd-b3e0-44d1-9411-3a6dfae712e1" />
+  <Project Path="IntersectionOfTwoSortedArrays/IntersectionOfTwoSortedArrays.vcxproj" />
 </Solution>

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="LinearSearch/LinearSearch.vcxproj" />
+  <Project Path="LinearSearch/LinearSearch.vcxproj" Id="e3231d86-1a88-4948-bd14-0621a35edd0a" />
 </Solution>

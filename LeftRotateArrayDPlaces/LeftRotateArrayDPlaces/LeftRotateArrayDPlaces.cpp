@@ -5,7 +5,7 @@
 // brute force
 // Time Complexity O(n + d)
 // Space Complexity O(d) since we're storing d elements in the holdDElements vector
-std::vector<int> leftRotateArrayDPlaces(std::vector<int> arr, int d)
+std::vector<int> leftRotateArrayDPlaces(std::vector<int>& arr, int d)
 {
 	// assigning arr.size() to a const variable since we use it a bunch here and doesn't change
 	const int n = arr.size();
@@ -48,7 +48,7 @@ std::vector<int> leftRotateArrayDPlaces(std::vector<int> arr, int d)
 
 // JUST IN CASE YOU CAN'T USE REVERSE FUNCTION
 // THIS IS THE MANUAL REVERSE
-void manualReverse(std::vector<int> arr, int start, int end)
+void manualReverse(std::vector<int>& arr, int start, int end)
 {
 	while (start <= end)
 	{
@@ -66,7 +66,7 @@ void manualReverse(std::vector<int> arr, int start, int end)
 // optimal
 // Time Complexity O(2n); O(d) + O(n-d) + O(n) = O(2n)
 // Space Complexity O(1) since we're not using any extra space
-std::vector<int> leftRotateArrayDPlacesOptimal(std::vector<int> arr, int d)
+std::vector<int> leftRotateArrayDPlacesOptimal(std::vector<int>& arr, int d)
 {
 	d = d % arr.size();
 	// reverse the first d elements O(d)

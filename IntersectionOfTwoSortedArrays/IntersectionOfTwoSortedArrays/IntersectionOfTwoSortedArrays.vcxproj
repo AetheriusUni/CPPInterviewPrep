@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0bb9cb64-3fce-48ff-97e8-7cbb4614f6aa}</ProjectGuid>
-    <RootNamespace>SecondLargestInArray</RootNamespace>
+    <ProjectGuid>{99f52294-d3f6-4624-bbc6-b456faa0e447}</ProjectGuid>
+    <RootNamespace>IntersectionOfTwoSortedArrays</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>SecondLargestAndSmallest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SecondLargestAndSmallest.cpp" />
+    <ClCompile Include="IntersectionOfTwoSortedArrays.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

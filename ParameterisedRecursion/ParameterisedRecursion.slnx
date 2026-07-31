@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ParameterisedRecursion/ParameterisedRecursion.vcxproj" />
+  <Project Path="ParameterisedRecursion/ParameterisedRecursion.vcxproj" Id="594c4b16-fe2e-458a-927e-f7b6ff3df13c" />
 </Solution>

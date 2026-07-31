@@ -5,7 +5,7 @@
 // brute force
 // Time Complexity = O(n + d)
 // Space Complexity = O(d) since we store d elements in dHolder
-std::vector<int> rightRotateDPlaces(std::vector<int> arr, int d)
+std::vector<int> rightRotateDPlaces(std::vector<int>& arr, int d)
 {
 	// store size of array since we'll use it a lot
 	int n = arr.size();
@@ -60,7 +60,7 @@ std::vector<int> rightRotateDPlaces(std::vector<int> arr, int d)
 // reverse is start INCLUSIVE and end EXCLUSIVE
 // Time Complexity O(2n) since we have O(n) + O(d) + O(n - d)
 // Space Complexity O(1) since no extra space was used
-std::vector<int> rightRotateDPlacesOptimal(std::vector<int> arr, int d)
+std::vector<int> rightRotateDPlacesOptimal(std::vector<int>& arr, int d)
 {
 	int n = arr.size();
 	d = d % n;

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.vcxproj" />
+  <Project Path="RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.vcxproj" Id="97c80c5a-9acf-4f6d-adf6-b998e81626b2" />
 </Solution>

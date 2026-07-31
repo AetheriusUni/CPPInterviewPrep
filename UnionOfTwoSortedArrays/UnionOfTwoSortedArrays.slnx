@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="UnionOfTwoSortedArrays/UnionOfTwoSortedArrays.vcxproj" />
+  <Project Path="UnionOfTwoSortedArrays/UnionOfTwoSortedArrays.vcxproj" Id="570056c7-58d9-4eab-8dbe-ea0d7eb3294a" />
 </Solution>

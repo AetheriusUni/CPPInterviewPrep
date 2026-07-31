@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-bool printOneSubsequence(int index, std::vector<int> subsequence, int currentSum, int targetSum, int arr[], int arrSize)
+bool printOneSubsequence(int index, std::vector<int>& subsequence, int currentSum, int targetSum, int arr[], int arrSize)
 {
 	// base case
 	if (index == arrSize)

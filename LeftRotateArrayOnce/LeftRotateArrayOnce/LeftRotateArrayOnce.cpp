@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> leftRotateArrayOnce (std::vector<int> &arr, int n)
+std::vector<int> leftRotateArrayOnce (std::vector<int>& arr, int n)
 {
 	int firstElement = arr[0];
 

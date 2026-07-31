@@ -69,7 +69,7 @@ class Solution
 		}
 };
 
-void printResults(std::vector<std::vector<std::string>> rValue)
+void printResults(const std::vector<std::vector<std::string>>& rValue)
 {
 	// for each of the groups in rValue
 	for (int i = 0; i < rValue.size(); i++)

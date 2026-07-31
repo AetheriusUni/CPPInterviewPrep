@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="TopKFrequentElements/TopKFrequentElements.vcxproj" />
+  <Project Path="TopKFrequentElements/TopKFrequentElements.vcxproj" Id="a5426cee-59d6-4b77-8002-5ad2d8da89ab" />
 </Solution>

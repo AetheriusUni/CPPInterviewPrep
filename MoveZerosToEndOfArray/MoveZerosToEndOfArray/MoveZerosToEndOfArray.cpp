@@ -6,7 +6,7 @@
 // brute force with sorting
 // Time Complexity O(2n)
 // Space Complexity O(1)
-std::vector<int> moveZerosToEndSorting(std::vector<int> arr)
+std::vector<int> moveZerosToEndSorting(std::vector<int>& arr)
 {
 	// sort the array
 	std::sort(arr.begin(), arr.end());
@@ -19,7 +19,7 @@ std::vector<int> moveZerosToEndSorting(std::vector<int> arr)
 // brute force without sorting
 // Time Complexity O(2n) since we have O(n) + O(x) + O(n - x)
 // Space Complexity O(1)
-std::vector<int> moveZerosToEnd(std::vector<int> arr)
+std::vector<int> moveZerosToEnd(std::vector<int>& arr)
 {
 	// hold all the non-zero values in a separate vector
 	std::vector<int> nonZeroHolder;
@@ -56,7 +56,7 @@ std::vector<int> moveZerosToEnd(std::vector<int> arr)
 // optimal
 // Time Complexity O(n)
 // Space Complexity O(1) since we're not using any extra space and are modifying the original array
-std::vector<int> moveZerosToEndOptimal(std::vector<int> arr)
+std::vector<int> moveZerosToEndOptimal(std::vector<int>& arr)
 {
 	// holds the index of the last seen zero
 	int lastZeroTracker = -1;

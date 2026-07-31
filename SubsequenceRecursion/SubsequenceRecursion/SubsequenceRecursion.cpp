@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void printSubsequences(int index, std::vector<int> &subsequence, int arr[], int sizeOfArray)
+void printSubsequences(int index, std::vector<int>& subsequence, int arr[], int sizeOfArray)
 {
 	// base case: if index is greater than or equal to the size of the array we have already processed the last value in the array
 	// technically it should be impossible for index > sizeOfArray

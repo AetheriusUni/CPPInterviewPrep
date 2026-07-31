@@ -7,7 +7,7 @@
 // brute force
 // Time Complexity O(n1 log n + n2 log n) + O(n1 + n2)
 // Space Complexity O(n1 + n2) + O(n1 + n2); space to solve problem (uniqueVals) + space to return answer (rArray)
-std::vector<int> unionArrFunc(std::vector<int> arr1, std::vector<int> arr2)
+std::vector<int> unionArrFunc(std::vector<int>& arr1, std::vector<int>& arr2)
 {
 	std::set<int> uniqueVals;
 	// put all the values of both arrays into a set
@@ -52,7 +52,7 @@ std::vector<int> unionArrFunc(std::vector<int> arr1, std::vector<int> arr2)
 // optimal
 // Time Complexity O(n1 + n2)
 // Space Complexity O(n1 + n2) for returning the rArray, not for solving since technically the values could be printed instead of stored and we wouldn't need any space
-std::vector<int> unionArrOptimal(std::vector<int> arr1, std::vector<int> arr2)
+std::vector<int> unionArrOptimal(std::vector<int>& arr1, std::vector<int>& arr2)
 {
 	// index in arr1
 	int i = 0;
