@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="MoveZerosToEndOfArray/MoveZerosToEndOfArray.vcxproj" Id="7129996e-b252-461e-926c-cc3eced7e479" />
+  <Project Path="LinearSearch/LinearSearch.vcxproj" />
 </Solution>
