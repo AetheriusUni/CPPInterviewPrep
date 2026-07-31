@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="LeftRotateArrayDPlaces/LeftRotateArrayDPlaces.vcxproj" Id="ab807ad0-9c30-4dc9-96d4-d52d8c2d7540" />
+  <Project Path="MoveZerosToEndOfArray/MoveZerosToEndOfArray.vcxproj" />
 </Solution>
