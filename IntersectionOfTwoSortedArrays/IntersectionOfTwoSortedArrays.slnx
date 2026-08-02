@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="IntersectionOfTwoSortedArrays/IntersectionOfTwoSortedArrays.vcxproj" />
+  <Project Path="IntersectionOfTwoSortedArrays/IntersectionOfTwoSortedArrays.vcxproj" Id="99f52294-d3f6-4624-bbc6-b456faa0e447" />
 </Solution>

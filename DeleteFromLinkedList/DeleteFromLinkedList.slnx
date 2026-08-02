@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DeleteFromLinkedList/DeleteFromLinkedList.vcxproj" Id="9f14d644-e045-41e4-bfe8-b8182c853db3" />
+</Solution>
