@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="InsertToLinkedList/InsertToLinkedList.vcxproj" Id="cf9ebc02-4ea4-40ba-9c60-5569e88e984e" />
+</Solution>
