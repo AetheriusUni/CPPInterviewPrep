@@ -87,6 +87,7 @@ Node* insertTail(Node* head, int val)
 	return head;
 }
 
+// Time Complexity O(k) where k is the value we're trying to insert before
 Node* insertValueAtK(Node* head, int val, int k)
 {
 	if (head == nullptr)
@@ -126,6 +127,7 @@ Node* insertValueAtK(Node* head, int val, int k)
 	return head;
 }
 
+// Time Complexity O(n)
 Node* insertBeforeValue(Node* head, int insertVal, int targetVal)
 {
 	if (head == nullptr)
