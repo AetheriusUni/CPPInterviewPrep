@@ -91,6 +91,7 @@ Node* insertValueAtK(Node* head, int val, int k)
 {
 	if (head == nullptr)
 	{
+		// if k == 1 we are to be inserted as the head
 		if (k == 1)
 		{
 			return new Node(val);
@@ -108,9 +109,13 @@ Node* insertValueAtK(Node* head, int val, int k)
 
 	while (currentNode != nullptr)
 	{
+		// when we find the k
 		if (elementNum == k)
 		{
+			// make the node to be inserted which will point to the current kth element
 			Node* kthValue = new Node(val, currentNode);
+			// insert by having the previous node point to it
+			// previousNode -> kthValue -> currentNode
 			previousNode->next = kthValue;
 			break;
 		}
@@ -121,8 +126,36 @@ Node* insertValueAtK(Node* head, int val, int k)
 	return head;
 }
 
-Node* insertBeforeValue(Node* head, int val, int targetVal)
+Node* insertBeforeValue(Node* head, int insertVal, int targetVal)
 {
+	if (head == nullptr)
+	{
+		return nullptr;
+	}
+
+	// if the data at the head is the target data/val
+	if (head->data == insertVal)
+	{
+		// make a new node that points to the head
+		return new Node(insertVal, head);
+	}
+
+	Node* currentNode = head;
+	
+	// until we hit null data
+	while (currentNode->data != NULL)
+	{
+		// if the data of the next node is the one we're looking to insert before
+		if (currentNode->next->data == targetVal)
+		{
+			// make the node to be inserted and have it point to the next node
+			Node* insertNode = new Node(insertVal, currentNode->next);
+			// have the current node point to the newly inserted node
+			currentNode->next = insertNode;
+			break;
+		}
+		currentNode = currentNode->next;
+	}
 	return head;
 }
 
