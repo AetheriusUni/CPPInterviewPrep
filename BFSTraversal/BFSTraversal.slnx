@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="BalancedParenthesis/BalancedParenthesis.vcxproj" Id="a01c364d-36f9-4d2d-aa34-8a71414a0bb4" />
+  <Project Path="BFSTraversal/BFSTraversal.vcxproj" />
 </Solution>
