@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="BinarySearch/BinarySearch.vcxproj" />
+  <Project Path="BinarySearch/BinarySearch.vcxproj" Id="5931fe20-8493-4037-b884-7de1e4fb20f0" />
 </Solution>
