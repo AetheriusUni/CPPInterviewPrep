@@ -15,7 +15,7 @@ void dfs(int node, std::vector<int> adj[], std::vector<int>& visited, std::vecto
 		// if the node wasn't visited yet
 		if (visited[it] == 0)
 		{
-			// check its neighbors
+			// visit its neighbors
 			dfs(it, adj, visited, visitedNodeOrder);
 		}
 	}
