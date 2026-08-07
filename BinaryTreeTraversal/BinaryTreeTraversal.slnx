@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="BinaryTreeTraversal/BinaryTreeTraversal.vcxproj" Id="34db6adb-f344-4b92-be3b-6350daed9203" />
+</Solution>
